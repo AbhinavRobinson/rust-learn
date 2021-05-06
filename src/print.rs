@@ -14,4 +14,10 @@ pub fn run() {
     name = "Abhinav",
     activity = "Piano"
   );
+  // Placeholder traits
+  println!("Binary: {0:b} \nHex: {0:x} \nOctal: {0:o}", 10);
+  // Placeholder Debug Trait
+  println!("{:?}", (12, true, "Hello"));
+  // basic math
+  println!("10 + 10 = {}", 10 + 10);
 }
