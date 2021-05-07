@@ -35,4 +35,10 @@ pub fn run() {
   for x in numbers.iter() {
     println!("Number: {}", x);
   }
+
+  // Loop and mutate
+  for x in numbers.iter_mut() {
+    *x *= 2;
+  }
+  println!("{:?}", numbers);
 }
