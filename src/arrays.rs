@@ -25,6 +25,6 @@ pub fn run() {
   // 4x bigger array
 
   // get slice
-  let slice: &[i32] = &i32array;
+  let slice: &[i32] = &i32array[0..2];
   println!("Slice: {:?}", slice);
 }
