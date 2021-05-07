@@ -1,7 +1,7 @@
 pub fn run() {
-  let age: u8 = 20;
+  let age: u8 = 22;
   let check_id: bool = false;
-  let knows:bool = true;
+  let knows: bool = true;
 
   // if/else
   if age >= 21 && check_id || knows {
@@ -11,4 +11,8 @@ pub fn run() {
   } else {
     println!("No ID");
   }
+
+  // short hand
+  let is_of_age = if age >= 21 { true } else { false };
+  println!("{}", is_of_age);
 }
